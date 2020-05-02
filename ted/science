@@ -1,0 +1,26 @@
+display_name=TED|science
+type=landscape
+cat=episode
+page_number=30
+page1_url=https://www.ted.com/talks?topics%5B%5D=science
+page2_url_pre=https://www.ted.com/talks?page=
+page2_url_suffix=&topics%5B%5D=science
+first_container_select=#browse-results .row
+first_items_select=.col
+title_select=.h9
+title_select_attr=none
+logo_select=img
+logo_select_attr=src
+first_url_select=.h9 a
+first_url_select_attr=href
+logo_pre=none
+first_url_pre=https://www.ted.com
+realurl_regex="stream":"([^"]+)
+second_flag=none
+second_container_select=none
+second_items_select=none
+second_title_select=none
+second_title_select_attr=none
+second_url_select=none
+second_url_select_attr=none
+second_url_pre=none
